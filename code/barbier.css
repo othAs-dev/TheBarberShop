@@ -16,6 +16,9 @@ body{
 .align-center{
     align-items: center;
 }
+.reverse{
+    flex-direction: row-reverse;
+}
 .full-width{
     width: 100%;
 }
@@ -69,8 +72,6 @@ button[type="submit"]{
     box-shadow: 0px 3px black;
     z-index: 100;
     position: absolute; 
-    
-
 }
 .logo-2{
 
@@ -144,9 +145,6 @@ img{
     width: 120px;
     cursor: pointer;
 }
-.reverse{
-    flex-direction: row-reverse;
-}
 .order-first-img{
     order: 2;
 }
@@ -160,25 +158,27 @@ img{
 footer{
     height: 240px;
     margin-top: 5%;
+    width: 100%;
 }
 #logo-footer{
-    width: 15%;
+    width: 12%;
     height: 200px;
 }
 #change > .list-footer{
-    width: 30%;
+    width: 20%;
     font-size: 1.5rem;
 }
 .logo{
     display: inline-block;
-    margin-top: 1%;
+    margin-top: 2%;
+    font-size: 1.5rem;
 }
 #change{
     justify-content: space-evenly;
     padding-top: 1%;
 }
 .width{
-    width: 90%;
+    width: 100%;
 }
 .law-text{
     font-size: 1rem;
@@ -186,7 +186,4 @@ footer{
     margin: auto;
     background-color: #036f7b;
     color: white;
-}
-.auto{
-    margin: auto;
 }
